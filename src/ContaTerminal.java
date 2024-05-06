@@ -19,6 +19,6 @@ public class ContaTerminal {
         System.out.println("What is your account balance? (000.00)");
         accountBalance = scanner.nextDouble();
 
-        System.out.println("Hello ".concat(clientName + ", thank you for creating an account with our bank, your branch is ") + agency + ", account " + accountNumber + " nd your balance of $" + accountBalance + " is now available for withdrawal.");
+        System.out.println("Hello ".concat(clientName + ", thank you for creating an account with our bank, your branch is ") + agency + ", account number " + accountNumber + " and your balance of $" + accountBalance + " is now available for withdrawal.");
     }
 }
